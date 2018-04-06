@@ -6,7 +6,7 @@ splinart is a package used for a tutorial which explains how to do the Python pa
 - `Pylint <https://www.pylint.org/>`_
 - `Sphinx <http://www.sphinx-doc.org/en/stable/>`_
 
-And automate the process to distribute this package using github.
+and automate the process to distribute this package using github.
 
 The original idea of splinart is found on the great invonvergent website.
 
