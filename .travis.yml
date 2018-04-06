@@ -1,4 +1,9 @@
 language: python
+env:
+  - PYVER="2.7"
+  - PYVER="3.4"
+  - PYVER="3.5"
+  - PYVER="3.6"
 
 install:
   - sudo apt-get update
@@ -11,7 +16,7 @@ install:
   # Useful for debugging any issues with conda
   - conda info -a
 
-  - conda create -q -n splinart-env python=$TRAVIS_PYTHON_VERSION
+  - conda create -q -n splinart-env python=$PYVER
   - source activate splinart-env
   - travis_wait pip install -r requirements_tests.txt
   - python setup.py install
